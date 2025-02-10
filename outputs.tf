@@ -7,7 +7,7 @@ output "vpc_id" {
 }
 
 output "public_subnet_list" {
-    value = module.vpc.public_sbnet_ids
+    value = module.vpc.public_subnet_ids
 }
 
 output "igw_id" {
